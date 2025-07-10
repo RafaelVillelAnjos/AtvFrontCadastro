@@ -1,0 +1,106 @@
+main {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+}
+
+button{
+  cursor: pointer;
+}
+
+#insert-section h1{
+  font-size: 230%;
+  text-decoration: underline 2px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.tabela h1{
+  font-size: 230%;
+  text-decoration: underline 2px;
+  margin-top: 10px;
+}
+
+table {
+  margin: 50px auto;
+  margin-top: 0;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#insert-section{
+  border: solid 1px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+#insert-section input{
+  width: 230px;
+  height: 25px;
+  padding: 0 3px;
+  border: #666 solid 2px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#insert-section label{
+  text-align: left;
+  margin-left: 1%;
+}
+
+#insert-section button{
+  width: 150px;
+  height: 25px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.inputSection{
+  width: fit-content;
+  text-align: left;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.tabela{
+  border: solid 1px;
+  border-radius: 10px;
+  width: 44%;
+  margin-left: 5%;
+  margin-top: -12.5%;
+}
