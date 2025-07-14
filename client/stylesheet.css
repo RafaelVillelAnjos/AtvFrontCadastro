@@ -56,10 +56,27 @@ td {
 
 .modal-content {
   background-color: #fefefe;
-  margin: 10% auto;
+  margin: 15% auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  border: 2px solid #888;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.modal h2{
+  font-size: 160%;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-top: 0%;
+  padding: 0%;
+}
+
+#close-modal-btn{
+  margin-left: 1%;
+}
+
+#update-modal-btn{
+  margin-right: 1%;
 }
 
 #insert-section{
@@ -86,7 +103,14 @@ td {
   width: 150px;
   height: 25px;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 3%;
+  transition: 0.3s;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+#insert-section button:hover{
+  transform: scale(0.9, 0.9);
 }
 
 .inputSection{
@@ -100,7 +124,59 @@ td {
 .tabela{
   border: solid 1px;
   border-radius: 10px;
-  width: 44%;
-  margin-left: 5%;
-  margin-top: -12.5%;
+  width: 50%;
+  margin-left: 3%;
+}
+
+table{
+  max-width: 10%;
+  width: 10%;
+}
+
+.pesquisa{
+  margin-bottom: 3%;
+  margin-top: -1%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pesquisa input{
+  width: 150px;
+  height: 12px;
+  padding: 4px;
+  border: #666 solid 2px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-right: 0.5%;
+}
+
+.pesquisa button{
+  vertical-align: 1px;
+  margin-left: 0.5%;
+  width: 90px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.pesquisa button:hover{
+  transform: scale(0.9, 0.9);
+}
+
+table button{
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+table button:hover{
+  transform: scale(0.9, 0.9);
+}
+
+.delete-row-btn{
+  color: white;
+  background-color: rgb(255, 42, 42);
 }

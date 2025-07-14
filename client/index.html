@@ -11,7 +11,7 @@
     
     <section id="insert-section">
 
-      <h1>Cadastro do Cassino</h1>
+      <h1>Cadastro de Clientes</h1>
 
       <div class="inputSection">
         <label>CPF: </label> 
@@ -50,6 +50,11 @@
     <div class="tabela">
       <h1>Lista de Clientes</h1>
 
+      <div class="pesquisa">
+        <input placeholder="Search by name" id="search-input" />
+        <button id="search-btn">Procurar</button>
+      </div>
+
       <table id="table">
         <thead>
           <tr>
@@ -66,11 +71,6 @@
           
         </tbody>
       </table>
-
-      <div>
-        <input placeholder="search by name" id="search-input" />
-        <button id="search-btn">Search</button>
-      </div>
     </div>
 
   </main>
@@ -90,9 +90,9 @@
         <input type="number" id="update-age-input" /><br />
         <label>Profissao:</label>
         <input type="text" id="update-profession-input" /><br />
-        
-        <button type="button" id="update-btn">Atualizar</button>
       </form>
+      
+      <button type="button" id="update-btn">Atualizar</button>
       <button type="button" id="close-modal-btn">Fechar</button>
     </div>
   </div>

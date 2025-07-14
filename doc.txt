@@ -1,0 +1,24 @@
+Vá para pasta server e rode os comandos abaixo:
+    npm install express
+    npm install pg
+    npm install -g --force nodemon
+    npm install cors
+    npm install dotenv
+
+
+Instruções para rodar o código:
+    nodemon app.js
+    or
+    node app.js
+============================================================================
+
+BACK-END:
+    Arquivo de rotas: app.js
+    Arquivo de conexão com a base de dados e também contém as queries: dbService.js
+
+FRONT-END:
+    Arquivos:
+        index.html
+        stylesheet.css
+
+        index.js
