@@ -103,11 +103,22 @@ label{
 #close-modal-btn{
   margin-left: 8%;
   background-color: rgb(247, 42, 42);
+  color: rgb(241, 239, 239);
+}
+
+#close-modal-btn:hover{
+  background-color: rgb(201, 34, 34);
   color: rgb(230, 226, 226);
 }
 
-#update-modal-btn{
+#update-btn{
+  background-color: #1aa14a;
+  color: rgb(241, 239, 239);
+}
 
+#update-btn:hover{
+  background-color: #147937;
+  color: rgb(230, 226, 226);
 }
 
 #insert-section{
@@ -132,16 +143,20 @@ label{
 
 #insert-section button{
   width: 150px;
-  height: 25px;
-  font-size: 16px;
+  height: 30px;
+  font-size: 19px;
   margin-bottom: 3%;
   transition: 0.3s;
   border: solid 1px black;
   border-radius: 5px;
+  background-color: #1aa14a;
+  color: rgb(241, 239, 239);
 }
 
 #insert-section button:hover{
   transform: scale(0.9, 0.9);
+  background-color: #147937;
+  color: rgb(230, 226, 226);
 }
 
 .inputSection{
@@ -170,12 +185,11 @@ table{
   text-align: center;
   justify-content: center;
   align-items: center;
-  
 }
 
 .pesquisa input{
   width: 150px;
-  height: 12px;
+  height: 25px;
   padding: 4px;
   border: #666 solid 2px;
   border-radius: 5px;
@@ -184,13 +198,21 @@ table{
 }
 
 .pesquisa button{
-  vertical-align: 1px;
   margin-left: 0.5%;
   width: 90px;
+  height: 30px;
+  font-size: 17px;
   cursor: pointer;
   transition: 0.3s;
   border: 1px solid black;
   border-radius: 5px;
+  background-color: #1aa14a;
+  color: rgb(241, 239, 239);
+}
+
+.pesquisa button:hover{
+  background-color: #1aa14a;
+  color: rgb(241, 239, 239);
 }
 
 .pesquisa button:hover{
@@ -208,6 +230,21 @@ table button:hover{
 }
 
 .delete-row-btn{
-  color: white;
-  background-color: rgb(255, 42, 42);
+  background-color: rgb(247, 42, 42);
+  color: rgb(241, 239, 239);
+}
+
+.delete-row-btn:hover{
+  background-color: rgb(201, 34, 34);
+  color: rgb(230, 226, 226);
+}
+
+.edit-row-btn{
+  background-color: #1aa14a;
+  color: rgb(241, 239, 239);
+}
+
+.edit-row-btn:hover{
+  background-color: #147937;
+  color: rgb(230, 226, 226);
 }
